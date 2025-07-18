@@ -1,12 +1,12 @@
 body{
-  font-family: 'Inter', sans-serif;
+  font-family: 'playfair-display', serif;
   background-color: whitesmoke;
   margin:0%;
   padding: 20px;
 }
 .card-container {
   position: relative
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   gap: 10px;
   margin: auto;
@@ -16,21 +16,23 @@ body{
 }
 .card{
   width: 300px;
+  height: 300px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  font-family: open-sans, sans-serif;
 }
 h1{
-  font-family: "inter";
+  font-family: "playfair-display";
   font-style:"italic"
   font-size: 80px;
   font-weight:  normal;
   transition: 1s ease;
 }
 p {
-  font-family: "inter";
+  font-family: "lora", serif;
   font-size: 25px;
   font-weight: normal
   text-transform: uppercase;
@@ -54,11 +56,11 @@ footer a {
 }
 .card img {
   width: 100%; /* Full width of card */
-  max-width: 150px; /* Limit size */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 250px; /* Limit size */
+  height: 150px; /* Maintain aspect ratio */
 }
 header[
-font-family: 'Inter', sans-serif;
+font-family: 'lora';
 font-sstyle: italic;
   text-align: center;
   margin-bottom: 20px;
